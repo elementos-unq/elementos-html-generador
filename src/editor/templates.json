@@ -1,0 +1,53 @@
+{
+  "templates":[{
+    "file": "head",
+    "description": "Head"
+    },{
+    "file": "title",
+    "description": "Title"
+    },{
+    "file": "meta",
+    "description": "Etiqueta meta"
+    },{
+    "file": "meta2",
+    "description": "Ejemplos de etiqueta meta usados frecuentemente"
+    },{
+    "file": "refresh",
+    "description": "Http-equiv"
+    },{
+    "file": "refresh2",
+    "description": "Http-equiv url",
+    "skipPrevious": true
+    },{
+    "file": "font",
+    "description": "Tipos de fuente",
+    "skipPrevious": true
+    },{
+    "file": "font2",
+    "description": "Etiqueta font y sus atributos"
+    },{
+    "file": "headers",
+    "description": "Etiqueta headers"
+    },{
+    "file": "complete",
+    "description": "Ejemplo de página completa"
+    },{
+    "file": "comments",
+    "description": "Comentarios"
+    },{
+    "file": "links",
+    "description": "Enlaces"
+    },{
+    "file": "images",
+    "description": "Etiqueta img"
+    },{
+    "file": "imageslinks",
+    "description": "Enlaces con imagenes"
+    },{
+    "file": "lists",
+    "description": "Listas"
+    },{
+    "file": "tables",
+    "description": "Tablas"
+  }]
+}

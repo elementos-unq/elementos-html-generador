@@ -1,0 +1,23 @@
+{
+  "name": "elementos-html-generador",
+  "version": "0.0.0",
+  "authors": [
+    "alejandrocastrounqui <alejandrocastrounqui@gmail.com>"
+  ],
+  "description": "HTML features demo",
+  "main": "dist/index.html",
+  "keywords": [
+    "html"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
