@@ -192,11 +192,13 @@ module.exports = (grunt) ->
     for tmpl, index in config.templates
       content = grunt.file.read src_dir + '/' + tmpl.file + '.html'
       next_tmpl = config.templates[index + 1] or ''
+      is_las_template = if index is (config.templates.length - 1) then 'last-template' else ''
       
       example = editor.replace(replacer('element\\-file'), tmpl.file)
       example = example.replace(replacer('element\\-description'), tmpl.description)
       example = example.replace(replacer('next\\-element\\-file'), next_tmpl.file)
       example = example.replace(replacer('element\\-content'), content)
+      example = example.replace(replacer('is\\-last\\-template'), is_las_template)
       if not tmpl.skipPrevious
         example = example.replace(replacer('provious\\-element\\-content'), previous_content)
       

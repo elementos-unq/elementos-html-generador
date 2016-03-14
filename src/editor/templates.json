@@ -1,53 +1,71 @@
 {
   "templates":[{
-    "file": "head",
+    "file": "html-head",
     "description": "Head"
     },{
-    "file": "title",
+    "file": "html-title",
     "description": "Title"
     },{
-    "file": "meta",
+    "file": "html-meta",
     "description": "Etiqueta meta"
     },{
-    "file": "meta2",
+    "file": "html-meta2",
     "description": "Ejemplos de etiqueta meta usados frecuentemente"
     },{
-    "file": "refresh",
+    "file": "html-refresh",
     "description": "Http-equiv"
     },{
-    "file": "refresh2",
+    "file": "html-refresh2",
     "description": "Http-equiv url",
     "skipPrevious": true
     },{
-    "file": "font",
+    "file": "html-font",
     "description": "Tipos de fuente",
     "skipPrevious": true
     },{
-    "file": "font2",
+    "file": "html-font2",
     "description": "Etiqueta font y sus atributos"
     },{
-    "file": "headers",
+    "file": "html-headers",
     "description": "Etiqueta headers"
     },{
-    "file": "complete",
+    "file": "html-complete",
     "description": "Ejemplo de página completa"
     },{
-    "file": "comments",
+    "file": "html-comments",
     "description": "Comentarios"
     },{
-    "file": "links",
+    "file": "html-links",
     "description": "Enlaces"
     },{
-    "file": "images",
+    "file": "html-images",
     "description": "Etiqueta img"
     },{
-    "file": "imageslinks",
+    "file": "html-imageslinks",
     "description": "Enlaces con imagenes"
     },{
-    "file": "lists",
+    "file": "html-lists",
     "description": "Listas"
     },{
-    "file": "tables",
+    "file": "html-tables",
     "description": "Tablas"
+    },{
+    "file": "css-css",
+    "description": "CSS - Cascading Style Sheets"
+    },{
+    "file": "css-classes",
+    "description": "Clases CSS"
+    },{
+    "file": "css-selectors",
+    "description": "Selectores CSS (compustos)"
+    },{
+    "file": "css-selectors2",
+    "description": "Selectores CSS (multiples)"
+    },{
+    "file": "css-layout",
+    "description": "Disposición de los elementos (layout)"
+    },{
+    "file": "css-layout2",
+    "description": "Maquetado"
   }]
 }

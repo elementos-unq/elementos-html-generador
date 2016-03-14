@@ -14,11 +14,32 @@ body{
   overflow: hidden;
   padding: 10px;
   box-sizing: border-box;
-  .label{
-    box-sizing: initial;
-    color: #7986cb;
-    .name{
+  
+  .left{
+    float:left;
+    .label{
+      box-sizing: initial;
+      color: #7986cb;
+      .name{
+        color: #FFF;
+      }
+    }
+  }
+  .right{
+    float:right;
+    .css-link{
+      float: right;
+      width: 100px;
+      height: $controls-height;
+      text-decoration: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
       color: #FFF;
+      line-height: $controls-height;
+      transition: all 70ms ease;
+      cursor: pointer;
+      background-color: #8bc34a;
     }
   }
 }
@@ -69,6 +90,11 @@ body{
       background-color: #ffc107;
       color: #555;
     }
+    &.last-template{
+      height: 0;
+      width: 0;
+      overflow: hidden;
+    }
     &:hover{
       z-index: 999;
       transform: scale(1.1,1.2)
@@ -101,7 +127,8 @@ body{
       overflow: hidden;
       background-color: #FFF;
       min-height: $content-height;
-      box-sizing: initial;
+      padding: 10px;
+      box-sizing: border-box;
       width: 100%;
     }
     #shadow{
