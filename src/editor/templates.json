@@ -57,10 +57,10 @@
     "description": "Clases CSS"
     },{
     "file": "css-selectors",
-    "description": "Selectores CSS (compustos)"
+    "description": "Selectores CSS (compuestos)"
     },{
     "file": "css-selectors2",
-    "description": "Selectores CSS (multiples)"
+    "description": "Selectores CSS (múltiples)"
     },{
     "file": "css-layout",
     "description": "Disposición de los elementos (layout)"
